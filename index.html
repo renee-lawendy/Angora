@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angora</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#scrolling-nav"
+    data-bs-offset="0"
+    class="scrollspy-example"
+    tabindex="0"
+  >
+    <div class="carousel-sec" id="Home">
+      <div class="owl-one owl-carousel owl-theme">
+        <div class="item item-1">
+          <div class="carousel-inner type-1">
+            <h1>Advance In Digital Work</h1>
+          </div>
+        </div>
+        <div class="item item-2">
+          <div class="carousel-inner type-1">
+            <h1>We Build Great Bands</h1>
+          </div>
+        </div>
+        <div class="item item-3">
+          <div class="carousel-inner type-1">
+            <h1>Focused On Strategy</h1>
+          </div>
+        </div>
+      </div>
+      <!-- ============================= setting sec=============================== -->
+      <div class="setting d-flex">
+        <div class="setting-body p-3 bg-light d-inline-block">
+          <h6>HEADER STYLE</h6>
+          <p class="fw-bold text-dark">Image Slideshow</p>
+          <p class="fs-small">Single Image</p>
+          <p class="fs-small border-bottom pb-3">Video Background</p>
+          <h6 class="my-1 fw-bold">Colors</h6>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <span class="setting-icon" onclick="movingBar()"
+          ><i class="fa-solid fa-gears"></i
+        ></span>
+      </div>
+      <div class="scroll"><div class="point"></div></div>
+      <!-- ============================home sec ===================== -->
+      <div class="home-sec">
+        <div class="container">
+          <nav id="scrolling-nav" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"
+                ><img src="./images/logo-red.png" alt=""
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active px-4"
+                      aria-current="page"
+                      href="#Home"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4" href="#About">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4" href="#Team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4" href="#Project">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4" href="#Service">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4" href="#Blog">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link px-4" href="#Contact">Contact</a>
+                  </li>
+                </ul>
+                <div class="social-contact ms-5">
+                  <a class="px-2" href="#"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                  <a class="px-2" href="#"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a class="px-2" href="#"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- ================================================================================== -->
+    <div class="about-sec text-center sec" id="About">
+      <div class="container">
+        <h2 class="section-header">
+          <div class="letter">A</div>
+          About Us
+        </h2>
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-xs-12">
+            <p class="title-p">
+              Pellentesque elementum libero enim, eget gravida nunc laoreet et.
+              Nullam ac enim auctor, fringilla risus at, imperdiet turpis.
+              Pellentesque elementum libero enim.
+            </p>
+          </div>
+          <div class="col-md-7 col-xs-12">
+            <p class="normal-p">
+              Pellentesque vel elit egestas, pretium est ac, convallis orci.
+              Vivamus sem nisl, tristique vel fringilla vitae, efficitur at
+              eros. Duis aliquet aliquet pharetra. Suspendisse bibendum erat
+              quis gravida pulvinar. Phasellus vel eros porta, blandit dui ac,
+              viverra felis.
+            </p>
+            <p class="normal-p">
+              Nunc placerat iaculis pulvinar. Nullam auctor mauris sed urna
+              posuere volutpat. Mauris ut dui sit amet elit fermentum fermentum.
+              Fusce tincidunt diam at bibendum porta.
+            </p>
+            <p class="normal-p">
+              Aliquam nunc felis, sagittis eu purus non, interdum vehicula urna.
+              Vivamus congue diam sapien, eu pellentesque ipsum ultricies quis.
+            </p>
+          </div>
+          <div class="col-md-5 col-xs-12">
+            <div class="progress-chart mb-3">
+              <div class="progress-value d-flex justify-content-between">
+                <p class="d-inline progress-p">Branding</p>
+                <span class="text-right progress-span">80%</span>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 3px"
+              >
+                <div class="progress-bar pro-1"></div>
+              </div>
+            </div>
+            <div class="progress-chart mb-3">
+              <div class="progress-value d-flex justify-content-between">
+                <p class="d-inline progress-p">Web Design</p>
+                <span class="text-right progress-span">95%</span>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="95"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 3px"
+              >
+                <div class="progress-bar pro-2"></div>
+              </div>
+            </div>
+            <div class="progress-chart mb-3">
+              <div class="progress-value d-flex justify-content-between">
+                <p class="d-inline progress-p">Graphic Design</p>
+                <span class="text-right progress-span">85%</span>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 3px"
+              >
+                <div class="progress-bar pro-3"></div>
+              </div>
+            </div>
+            <div class="progress-chart mb-3">
+              <div class="progress-value d-flex justify-content-between">
+                <p class="d-inline progress-p">Development</p>
+                <span class="text-right progress-span">70%</span>
+              </div>
+              <div
+                class="progress"
+                role="progressbar"
+                aria-label="Example 1px high"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="height: 3px"
+              >
+                <div class="progress-bar pro-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =================================================team section========================================== -->
+    <div class="team-sec sec text-center" id="Team">
+      <div class="container">
+        <h2 class="section-header">
+          <div class="letter">T</div>
+          Our Team
+        </h2>
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-xs-12">
+            <p class="title-p">
+              Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt
+              urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa
+              aliquam faucibus.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-xs-6">
+            <div class="team-member">
+              <div class="team-img mb-2">
+                <img
+                  class="d-inline-block"
+                  src="./images/member-1.jpg"
+                  alt=""
+                />
+                <div class="team-media text-center">
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <h5 class="title">Michael Broad</h5>
+                <p class="normal-p">Web Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="team-member">
+              <div class="team-img mb-2">
+                <img
+                  class="d-inline-block"
+                  src="./images/member-2.jpg"
+                  alt=""
+                />
+                <div class="team-media text-center">
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <h5 class="title">Jeannette Crow</h5>
+                <p class="normal-p">CEO Founder</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="team-member">
+              <div class="team-img mb-2">
+                <img
+                  class="d-inline-block"
+                  src="./images/member-3.jpg"
+                  alt=""
+                />
+                <div class="team-media text-center">
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <h5 class="title">Martin Lawrence</h5>
+                <p class="normal-p">App Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-xs-6">
+            <div class="team-member">
+              <div class="team-img mb-2">
+                <img
+                  class="d-inline-block"
+                  src="./images/member-4.jpg"
+                  alt=""
+                />
+                <div class="team-media text-center">
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a class="px-2 text-light fs-4" href="#"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <h5 class="title">Isabella Dowson</h5>
+                <p class="normal-p">Creative Director</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ======================info section ======================================= -->
+    <div class="info-sec py-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-xs-12 offset-md-1">
+            <h2 class="section-header">Do you have any ideas?</h2>
+          </div>
+          <div class="info-a col-md-3 col-xs-12 ms-md-auto mt-xs-3">
+            <a href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ==========================services section=================================== -->
+    <div class="service-sec sec text-center" id="Service">
+      <div class="container">
+        <h2 class="section-header">
+          <div class="letter">S</div>
+          Our Services
+        </h2>
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-xs-12">
+            <p class="title-p">
+              Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt
+              urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa
+              aliquam faucibus.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="media col-lg-4 col-md-6 col-sm-12">
+            <i class="fa-solid fa-laptop me-3 fs-3"></i>
+            <div class="media-body text-start">
+              <h5 class="mt-0">Powerful Options</h5>
+              <p class="normal-p">
+                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent
+                laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+          <div class="media col-lg-4 col-md-6 col-sm-12">
+            <i class="fa-solid fa-pen-ruler me-3 fs-3"></i>
+            <div class="media-body text-start">
+              <h5 class="mt-0">Modern Design</h5>
+              <p class="normal-p">
+                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent
+                laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+          <div class="media col-lg-4 col-md-6 col-sm-12">
+            <i class="fa-solid fa-font-awesome me-3 fs-3"></i>
+            <div class="media-body text-start">
+              <h5 class="mt-0">Font Awesome Icons</h5>
+              <p class="normal-p">
+                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent
+                laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+          <div class="media col-lg-4 col-md-6 col-sm-12">
+            <i class="fa-solid fa-paperclip me-3 fs-3"></i>
+            <div class="media-body text-start">
+              <h5 class="mt-0">Ajax Portfolio</h5>
+              <p class="normal-p">
+                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent
+                laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+          <div class="media col-lg-4 col-md-6 col-sm-12">
+            <i class="fa-solid fa-gear me-3 fs-3"></i>
+            <div class="media-body text-start">
+              <h5 class="mt-0">Color Options</h5>
+              <p class="normal-p">
+                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent
+                laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+          <div class="media col-lg-4 col-md-6 col-sm-12">
+            <i class="fa-solid fa-headphones me-3 fs-3"></i>
+            <div class="media-body text-start">
+              <h5 class="mt-0">Audio Support</h5>
+              <p class="normal-p">
+                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent
+                laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+          <div class="media col-lg-4 col-md-6 col-sm-12">
+            <i class="fa-solid fa-file me-3 fs-3"></i>
+            <div class="media-body text-start">
+              <h5 class="mt-0">Well Documented</h5>
+              <p class="normal-p">
+                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent
+                laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+          <div class="media col-lg-4 col-md-6 col-sm-12">
+            <i class="fa-solid fa-video me-3 fs-3"></i>
+            <div class="media-body text-start">
+              <h5 class="mt-0">Background Videos</h5>
+              <p class="normal-p">
+                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent
+                laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+          <div class="media col-lg-4 col-md-6 col-sm-12">
+            <i class="fa-solid fa-code-branch me-3 fs-3"></i>
+            <div class="media-body text-start">
+              <h5 class="mt-0">Intro Slider</h5>
+              <p class="normal-p">
+                Ferri reque integre mea ut, eu eos vide errem noluise se. Putent
+                laoreet et ius utroque dissentias ut.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =========================== blog================================== -->
+    <div class="blog-sec text-center" id="Blog">
+      <div class="container">
+        <h2 class="section-header">
+          <div class="letter">c</div>
+          Client Reviews
+        </h2>
+        <div class="row">
+          <div class="col-md-8 offset-md-2 col-xs-12">
+            <p class="title-p">
+              Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt
+              urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa
+              aliquam faucibus.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-container">
+          <div class="owl-two owl-carousel owl-theme">
+            <div class="item">
+              <div>
+                <div class="carousel-img">
+                  <img
+                    class="rounded-circle"
+                    src="./images/client-1.png"
+                    alt=""
+                  />
+                </div>
+                <h5>Anthony lee</h5>
+                <p class="normal-p mb-2">From England</p>
+                <p class="testamonial fs-4">
+                  " Nunc accumsan finibus sollicitudin. Integer malesuada purus
+                  sapien, sit amet volu"
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <div class="carousel-img">
+                  <img
+                    class="rounded-circle"
+                    src="./images/client-2.png"
+                    alt=""
+                  />
+                </div>
+                <h5>Dgdfg Fgsxz</h5>
+                <p class="normal-p mb-2">From jbglju</p>
+                <p class="testamonial fs-4">
+                  " lorekhkgvlh dkisnhlvihy likhryf ihri djzgugbkude aeiujhbdr
+                  boiedhyr"
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <div class="carousel-img">
+                  <img
+                    class="rounded-circle"
+                    src="./images/client-3.png"
+                    alt=""
+                  />
+                </div>
+                <h5>Salwa Skihlds</h5>
+                <p class="normal-p mb-2">From ugtkhf</p>
+                <p class="testamonial fs-4">
+                  " Nunc accumsan finibus sollicitudin. Integer malesuada purus
+                  sapien, sit amet volutpat."
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <div class="carousel-img">
+                  <img
+                    class="rounded-circle"
+                    src="./images/client-4.png"
+                    alt=""
+                  />
+                </div>
+                <h5>Fksdlju Hkiyhyb</h5>
+                <p class="normal-p mb-2">From aknhf</p>
+                <p class="testamonial fs-4">
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Perspiciatis"
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <div class="carousel-img">
+                  <img
+                    class="rounded-circle"
+                    src="./images/client-5.png"
+                    alt=""
+                  />
+                </div>
+                <h5>lkhnba loujbfa</h5>
+                <p class="normal-p mb-2">From ugtkhf</p>
+                <p class="testamonial fs-4">
+                  " Nunc accumsan finibus sollicitudin. Integer malesuada purus
+                  sapien, sit amet "
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <div class="carousel-img">
+                  <img
+                    class="rounded-circle"
+                    src="./images/client-6.png"
+                    alt=""
+                  />
+                </div>
+                <h5>dkhyba ikhyb iuas</h5>
+                <p class="normal-p mb-2">From ugtkhf</p>
+                <p class="testamonial fs-4">
+                  " Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Repellendus beatae est ipsa, "
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <div class="carousel-img">
+                  <img
+                    class="rounded-circle"
+                    src="./images/client-7.png"
+                    alt=""
+                  />
+                </div>
+                <h5>kjbalis lakiyhsdx</h5>
+                <p class="normal-p mb-2">From akmb.ka</p>
+                <p class="testamonial fs-4">
+                  " ohsdlhyb iahyoiuyhdoiayqhi iyhdoiwugdugu ishdyiagyd vecyhli
+                  frgtyhuygtfdsdfrtgy"
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <div class="carousel-img">
+                  <img
+                    class="rounded-circle"
+                    src="./images/client-8.png"
+                    alt=""
+                  />
+                </div>
+                <h5>kjbalis lakiyhsdx</h5>
+                <p class="normal-p mb-2">From akmb.ka</p>
+                <p class="testamonial fs-4">
+                  " Nunc accumsan finibus sollicitudin. Integer malesuada purus
+                  sapien, sit amet volutpat sem ."
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div>
+                <div class="carousel-img">
+                  <img
+                    class="rounded-circle"
+                    src="./images/client-9.png"
+                    alt=""
+                  />
+                </div>
+                <h5>khnikh ijhp9jhu</h5>
+                <p class="normal-p mb-2">From akmb.ka</p>
+                <p class="testamonial fs-4">
+                  "Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Iste odit maiores iusto fuga neque "
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ================================contact section================================================= -->
+    <div class="contact-sec sec" id="Contact">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-header">
+            <div class="letter">G</div>
+            Get In Touch
+          </h2>
+          <div class="row">
+            <div class="col-md-8 offset-md-2 col-xs-12">
+              <p class="title-p">
+                Vestibulum ante ipsum primis in faucibus orci. Morbi tincidunt
+                urna imperdiet tincidunt rhoncus. Sed mollis ligula non massa
+                aliquam faucibus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h3 class="mb-5">
+              Get answers and advices from professional consultants.
+            </h3>
+            <div class="media">
+              <i class="fa-solid fa-map me-3 fs-3"></i>
+              <div class="media-body text-start">
+                <h5 class="mt-0">Address</h5>
+                <p class="normal-p">
+                  1650 Lombard Street, San Francisco, CA 94123
+                </p>
+              </div>
+            </div>
+            <div class="media">
+              <i class="fa-solid fa-mobile me-3 fs-3"></i>
+              <div class="media-body text-start">
+                <h5 class="mt-0">Phone</h5>
+                <p class="normal-p">+1 (415) 876-3250 / +1 (415) 876-3251</p>
+              </div>
+            </div>
+            <div class="media">
+              <i class="fa-solid fa-envelope me-3 fs-3"></i>
+              <div class="media-body text-start">
+                <h5 class="mt-0">Say Hello</h5>
+                <p class="normal-p">email@sitename.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <input
+              type="text"
+              class="form-control form-control-lg mb-4"
+              id="exampleFormControlInput1"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              class="form-control form-control-lg mb-4"
+              id="exampleFormControlInput1"
+              placeholder="Email"
+            />
+            <input
+              type="text"
+              class="form-control form-control-lg mb-4"
+              id="exampleFormControlInput1"
+              placeholder="Phone"
+            />
+            <textarea
+              class="form-control mb-5"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Message"
+            ></textarea>
+            <a class="message" href="#"
+              ><span class="d-inline-block me-2 text-light"
+                ><i class="fa-solid fa-paper-plane"></i></span
+              >Send Message</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ===========================upper footer=========================== -->
+    <div class="upper-footer sec">
+      <a class="flash" href="#"><i class="fas fa-angle-up"></i></a>
+      <div class="container">
+        <div class="logo text-center mb-5">
+          <a href="#"><img src="./images/icon.png" alt="" /></a>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="fw-bold">Contact Info</h5>
+            <p>
+              1650 Lombard Street, San Francisco,<br />
+              CA 94123<br />+1 (415) 876-3250 <br />
+              email@sitename.com
+            </p>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="fw-bold">Useful Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-decoration-none" href="#">support</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="#">Terms & Conditions</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="#">Affiliate Program</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="#">Careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="fw-bold">Useful Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-decoration-none" href="#">Sunset in Venice</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="#"
+                  >Aerial View of Village</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none" href="#"
+                  >Lighted Concrete City</a
+                >
+              </li>
+              <li>
+                <a class="text-decoration-none" href="#">The Little Ghost</a>
+              </li>
+              <li>
+                <a class="text-decoration-none" href="#"
+                  >Royal Oats ft. Waldo</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <h5 class="fw-bold">Popular Tags</h5>
+            <a href="#" class="tags-link text-decoration-none">HTML5</a>
+            <a href="#" class="tags-link text-decoration-none">CSS</a>
+            <a href="#" class="tags-link text-decoration-none">Jquery</a>
+            <a href="#" class="tags-link text-decoration-none">UI/UX</a>
+            <a href="#" class="tags-link text-decoration-none">WEB</a>
+            <a href="#" class="tags-link text-decoration-none">Design</a>
+            <a href="#" class="tags-link text-decoration-none">Graphic</a>
+            <a href="#" class="tags-link text-decoration-none">Development</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ============================lower footer================================================ -->
+    <div class="lower-footer py-3">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-md-6 col-sm-12">
+            <a class="px-2 text-light fs-5" href="#"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="px-2 text-light fs-5" href="#"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a class="px-2 text-light fs-5" href="#"
+              ><i class="fa-brands fa-instagram"></i></a
+            ><a class="px-2 text-light fs-5" href="#"
+              ><i class="fa-brands fa-dribbble"></i></a
+            ><a class="px-2 text-light fs-5" href="#"
+              ><i class="fa-brands fa-pinterest"></i
+            ></a>
+          </div>
+          <div
+            class="col-md-3 col-sm-12 me-md-auto offset-md-3 d-flex justify-content-end"
+          >
+            <span
+              >Copyright © 2020
+              <a href="#" class="fw-bold text-light text-decoration-none"
+                >Angora</a
+              ></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------------------------------- -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="text/javascript">
+      $(".owl-one").owlCarousel({
+        loop: true,
+        margin: 0,
+        dots: false,
+        items: 1,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        animateOut: "fadeOut",
+      });
+      $(".owl-two").owlCarousel({
+        dots: false,
+        center: true,
+        margin: 0,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 6000,
+        responsive: {
+          1200: {
+            items: 5,
+          },
+          768: {
+            items: 3,
+          },
+          576: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
