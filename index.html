@@ -38,7 +38,25 @@
     class="scrollspy-example"
     tabindex="0"
   >
-    
+  <div class="carousel-sec" id="Home">
+    <div class="owl-one owl-carousel owl-theme">
+      <div class="item item-1">
+        <div class="carousel-inner type-1">
+          <h1>Advance In Digital Work</h1>
+        </div>
+      </div>
+      <div class="item item-2">
+        <div class="carousel-inner type-1">
+          <h1>We Build Great Bands</h1>
+        </div>
+      </div>
+      <div class="item item-3">
+        <div class="carousel-inner type-1">
+          <h1>Focused On Strategy</h1>
+        </div>
+      </div>
+    </div>
+  </div> 
       <!-- ============================= setting sec=============================== -->
       <div class="setting d-flex">
         <div class="setting-body p-3 bg-light d-inline-block">
@@ -123,7 +141,8 @@
           </nav>
         </div>
       </div>
-    </div>
+     </div>
+  </div>
     <!-- ================================================================================== -->
     <div class="about-sec text-center sec" id="About">
       <div class="container">
@@ -841,40 +860,7 @@
         </div>
       </div>
     </div> 
-    -----------------------------------------------------------------------------------------------------
-    <div class="container py-5">
-      <label for="productName">productName :</label>
-      <input value="" type="text" class="form-control mb-3" id="productName" />
-
-      <label for="productPrice">productPrice :</label>
-      <input type="number" class="form-control mb-3" id="productPrice" />
-
-      <label for="productCategory">productCategory :</label>
-      <input type="text" class="form-control mb-3" id="productCategory" />
-
-      <label for="productDesc">productDesc :</label>
-      <textarea
-        type="text"
-        class="form-control mb-3"
-        id="productDesc"
-      ></textarea>
-
-      <button onclick="addProduct()" class="btn btn-info">add product</button>
-    </div>
-
-    <div class="w-75 mx-auto py-4">
-      <table class="table text-center">
-        <thead>
-          <th>Name</th>
-          <th>Price</th>
-          <th>Desc</th>
-          <th>Category</th>
-          <th>update</th>
-          <th>Delete</th>
-        </thead>
-        <tbody id="tableBody"></tbody>
-      </table>
-    </div>
+   
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
